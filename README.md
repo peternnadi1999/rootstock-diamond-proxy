@@ -25,25 +25,24 @@ This repository contains a comprehensive guide and implementation of the **Diamo
    cd rootstock-diamond-proxy
    
 2. Install dependencies:
-```bash
-npm install
+
+`npm install`
 
 3. Configure .env with your Rootstock Testnet RPC URL and private key.
 
 4. Start a local Hardhat node:
-```bash
-npx hardhat node
+`
+npx hardhat node`
 
 **Usage**
 1. Deploy the contract:
-```bash
-npx hardhat run script/interaction.js --network rskTestnet
+`npx hardhat run script/interaction.js --network rskTestnet`
 
 Note the deployed Diamond address (e.g., 0xA3a8062b26605a9b14379e16902ae503b57a5).
 
 2. Run tests:
-```bash
-npx hardhat test test/diamond.test.js
+`
+npx hardhat test test/diamond.test.js`
 
 3. Optimize gas (optional):
 - Profile gas usage with the test script and adjust code.
